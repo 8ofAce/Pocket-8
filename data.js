@@ -22,6 +22,12 @@ const games = [
     description: "How many parts can you divide a virtual character into? Stickman Destruction is an action-oriented stickman ragdoll game in which you tear the virtual character apart a million times. The whole point of this game is to break the Stickman’s bones as much as possible by hitting him from right to left! Use your creativity and strategically calculate how you can get the most points. Break as many bones as you can and earn points!",
     embedUrl: "https://www.onlinegames.io/games/2021/unity3/stickman-destruction/index.html",
     thumbnail: "https://i.postimg.cc/gJD3dHsp/IMG-5252.jpg"
+  },
+  {
+    title: "Rooftop Duel",
+    description: "Can you handle a rooftop shoot-out with gravity, ragdoll limbs, and a toybox of overpowered weapons? The recoil is wild here. Rooftop Duel piles all the goofy physics of classic ragdoll games.",
+    embedUrl: "https://cloud.onlinegames.io/games/2025/construct/213/rooftop-duel/index-og.html",
+    thumbnail: "https://i.postimg.cc/VstdjRnR/IMG-5253.jpg"
   }
 ];
 
