@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Developers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="developers.html">Developers</a>
+    </nav>
+
+    <div class="container">
+        <h1>Our Team</h1>
+        <div id="dev-list" class="game-grid">
+            </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        const devContainer = document.getElementById('dev-list');
+        developers.forEach(dev => {
+            devContainer.innerHTML += `
+                <div class="card">
+                    <h2>${dev.name}</h2>
+                    <p style="color: #00d4ff;">${dev.role}</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
