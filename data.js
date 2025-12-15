@@ -15,7 +15,7 @@ const games = [
     title: "Drift King",
     description: "The traditional approach in a car game would be to give zero cash to the player at the beginning. This means waiting and playing for a long time to use any cool feature a game might offer. However, we told you Drift King is different.",
     embedUrl: "https://www.onlinegames.io/games/2024/unity/drift-king/index.html",
-    thumbnail: "https://ibb.co/gMfQkds9"
+    thumbnail: "https://i.postimg.cc/mrdbscMt/IMG-5250.jpg"
   },
   {
     title: "Dino Run",
