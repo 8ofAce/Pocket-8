@@ -6,10 +6,10 @@ const siteTitle = "Nexus Arcade"; // Change your site name here
 // Paste the "Embed URL" inside the source: ""
 const games = [
   {
-    title: "2048",
-    description: "Join the numbers and get to the 2048 tile!",
-    embedUrl: "https://play2048.co/",
-    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png" 
+    title: "Escape Car",
+    description: "Do you remember the very first Grand Theft Auto? That old-school, top-down chaos. Think of that and give it a fresh coat of chunky 3D graphics. Next, drop that straight in your browser. Yes, it's Escape Car, a free online GTA game where you bolt through a mini-city, dodge police cars, tanks, helicopters and scoop up stacks of cash. Every tight drift, every split-second fake-out, and every totaled police cruiser bumps your score higher. Hang on long enough, and you’ll leave with pockets full of upgrade money and a grin wider than the avenue.",
+    embedUrl: "https://cloud.onlinegames.io/games/2025/unity2/escape-car/index-og.html",
+    thumbnail: "https://www.onlinegames.io/escape-car/" 
   },
   {
     title: "Hextris",
