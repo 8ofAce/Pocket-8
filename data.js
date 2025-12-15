@@ -18,10 +18,10 @@ const games = [
     thumbnail: "https://i.postimg.cc/mrdbscMt/IMG-5250.jpg"
   },
   {
-    title: "Dino Run",
-    description: "The classic chrome dinosaur runner.",
-    embedUrl: "https://chromedino.com/",
-    thumbnail: "https://cdn.pixabay.com/photo/2024/01/29/18/48/dino-8540700_1280.png"
+    title: "Stickman destruction",
+    description: "How many parts can you divide a virtual character into? Stickman Destruction is an action-oriented stickman ragdoll game in which you tear the virtual character apart a million times. The whole point of this game is to break the Stickman’s bones as much as possible by hitting him from right to left! Use your creativity and strategically calculate how you can get the most points. Break as many bones as you can and earn points!",
+    embedUrl: "https://www.onlinegames.io/games/2021/unity3/stickman-destruction/index.html",
+    thumbnail: "https://i.postimg.cc/gJD3dHsp/IMG-5252.jpg"
   }
 ];
 
