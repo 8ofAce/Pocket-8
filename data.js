@@ -27,7 +27,5 @@ const games = [
 
 // --- DEVELOPERS LIST ---
 const developers = [
-  { name: "Alex Creator", role: "Lead Developer" },
-  { name: "Sam Design", role: "UI/UX Designer" },
-  { name: "Jordan Code", role: "Game Engine Logic" }
+  { name: "NotAGeek", role: "Developer and coder" },
 ];
