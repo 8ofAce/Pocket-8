@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Games Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="developers.html">Developers</a>
+    </nav>
+
+    <div class="container">
+        <h1>Select a Game</h1>
+        <div id="game-list" class="game-grid">
+            </div>
+    </div>
+
+    <div id="game-viewer">
+        <button class="close-btn" onclick="closeGame()">❌ Close Game & Return to Menu</button>
+        <iframe id="game-frame" src=""></iframe>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        const gameContainer = document.getElementById('game-list');
+        const viewer = document.getElementById('game-viewer');
+        const frame = document.getElementById('game-frame');
+
+        // Load Games
+        games.forEach(game => {
+            gameContainer.innerHTML += `
+                <div class="card">
+                    <img src="${game.thumbnail}" alt="${game.title}">
+                    <h2>${game.title}</h2>
+                    <p>${game.description}</p>
+                    <button class="btn" onclick="playGame('${game.embedUrl}')">PLAY NOW</button>
+                </div>
+            `;
+        });
+
+        // Play Function
+        function playGame(url) {
+            frame.src = url;
+            viewer.style.display = 'block';
+        }
+
+        // Close Function
+        function closeGame() {
+            viewer.style.display = 'none';
+            frame.src = ''; // Stop game audio/logic
+        }
+    </script>
+</body>
+</html>
